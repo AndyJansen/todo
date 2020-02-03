@@ -25,10 +25,7 @@
     <%= form.submit %>
   </div>
 
-<%= form_for([@todo_list, @todo_list.todo_items.build]) do |f| %>
- <%= f.text_field :content, placeholder: "New Todo" %>
- <%= f.submit %>
-<% end %>
+
 
 
 <% end %>
